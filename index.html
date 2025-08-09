@@ -1,28 +1,179 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keyvan Malaie</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            font-size: 1.2em;
-            color: #555;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name – Academic Profile</title>
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      background-color: #fff;
+      color: #222;
+      line-height: 1.6;
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    header img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      flex-shrink: 0;
+      border: 2px solid #ccc;
+    }
+
+    header div {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 2.2rem;
+      margin-bottom: 0.2rem;
+      color: #111;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      color: #666;
+      font-style: italic;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.3s ease;
+    }
+
+    a:hover,
+    a:focus {
+      border-color: #007acc;
+      outline: none;
+    }
+
+    nav {
+      margin-top: 2rem;
+      border-top: 1px solid #eee;
+      padding-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    nav a {
+      margin-right: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      header div {
+        min-width: auto;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to Keyvan Malaie</h1>
-    <p>This is my personal website hosted on GitHub Pages.</p>
+  <header>
+    <img src="your-photo.jpg" alt="Your Name" />
+    <div>
+      <h1>Your Name</h1>
+      <h2>Position / Department</h2>
+      <p>
+        Brief academic introduction or research summary goes here. For example,
+        "I am an assistant professor at XYZ University focusing on
+        electrochemical energy storage, battery materials, and machine learning
+        applications in chemistry."
+      </p>
+      <p>
+        Contact:
+        <a href="mailto:your.email@example.com">your.email@example.com</a> |
+        <a href="https://github.com/yourusername" target="_blank"
+          >GitHub</a
+        > |
+        <a href="https://scholar.google.com/citations?user=XXXX" target="_blank"
+          >Google Scholar</a
+        >
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h3>Research Interests</h3>
+      <p>
+        - Electrochemical energy storage and conversion<br />
+        - Battery materials and characterization<br />
+        - Application of machine learning in materials science<br />
+        - Sustainable energy technologies
+      </p>
+    </section>
+
+    <section>
+      <h3>Selected Publications</h3>
+      <ul>
+        <li>
+          Author A., Author B., "Title of Paper," <em>Journal Name</em>, 2023.
+        </li>
+        <li>
+          Author A., Author C., "Another Paper," <em>Another Journal</em>, 2022.
+        </li>
+        <li>
+          Author A., "Recent Work," <em>Preprint or Conference</em>, 2024.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Teaching</h3>
+      <p>
+        Courses taught:<br />
+        - Introduction to Electrochemistry<br />
+        - Advanced Materials Characterization<br />
+        - Machine Learning in Chemistry
+      </p>
+    </section>
+
+    <section>
+      <h3>Other Activities</h3>
+      <p>
+        Outreach, conference organization, peer reviewing, etc.
+      </p>
+    </section>
+  </main>
+
+  <nav>
+    © 2025 Your Name
+  </nav>
 </body>
 </html>
